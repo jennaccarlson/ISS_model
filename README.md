@@ -11,6 +11,7 @@ The ISS model and its validation against IVGTT-derived measures are described in
 
 This R code was translated from the original MATLAB implementation by the authors. The original MATLAB implementation is available in [Figshare](https://figshare.com/articles/journal_contribution/Fitting_the_Insulin_Sensitivity_and_Secretion_ISS_Model_to_OGTTs/23535612).
 
+You can cite this repository (v1.0.0) with DOI: 10.5281/zenodo.23570572
 
 ## Model Overview
 
@@ -138,4 +139,3 @@ The R code in this repository was translated from the original MATLAB implementa
 - Draft this README
 
 The model equations, parameter values, algorithmic structure, and scientific content are unchanged from the original MATLAB code and the published reference. All AI-generated code was reviewed and tested by the authors. The optimizer was changed from Nelder-Mead to L-BFGS-B and ODE tolerances were tightened on the recommendation of the AI assistant to improve numerical reproducibility across platforms.
-
